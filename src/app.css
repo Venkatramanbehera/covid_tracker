@@ -13,7 +13,12 @@ body {
 }
 
 .app__left {
-    flex: 0.9;
+    flex: 0.7;
+}
+
+.app__right {
+    padding: 20px;
+    margin-left: 40px;
 }
 
 .app__header {
@@ -26,7 +31,20 @@ body {
 .app__stats {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
+.table {
+    margin-bottom: 20px;
+}
+
+.line__graph{
+    height: 200px;
+}
+
+.bar__graph{
+    margin-top: 40px;
+}
+
 
 @media (max-width: 900px) {
     .app{

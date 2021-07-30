@@ -83,7 +83,7 @@ const LineGraph = ({ caseType = "cases"}) => {
     },[ caseType ])
     
     return (
-        <div>
+        <div className="line__graph">
             {
                 Object.keys(data).length > 0 && <Line data={ {
                     datasets : [
