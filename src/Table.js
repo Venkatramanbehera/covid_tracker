@@ -6,7 +6,7 @@ const Table = (props) => {
 
     return (
         <div className="table">
-            <table>
+            <table className="table__data">
                 <tbody>
                 {
                     countries.map(({ country, cases}) => {

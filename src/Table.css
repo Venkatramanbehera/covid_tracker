@@ -14,3 +14,23 @@
 .table td {
     padding: .5rem;   
 }
+
+@media (max-width: 900px) {
+    .table{
+        width: 900px;
+    }
+    .table__data{
+        width: 60%;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .table{
+        width: 900px;
+    }
+    .table__data{
+        width: 40%;
+    }
+    
+}
